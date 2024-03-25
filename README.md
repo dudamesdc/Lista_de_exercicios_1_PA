@@ -1,4 +1,4 @@
 # Lista_de_exercicios_1_PA
-COMPONENTES:
--Maria Eduarda S. da Costa
--Thamires dos S. Rego
+COMPONENTES:<br/>
+-Maria Eduarda S. da Costa<br/>
+-Thamires dos S. Rego<br/>
