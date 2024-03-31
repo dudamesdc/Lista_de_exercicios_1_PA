@@ -15,8 +15,8 @@ int main(void){
 }
 /*Saída do programa:
 contador/valor/valor/endereco/endereco
-i = 0 vet[0] = 1.1 *(f + 0) = 1.1 &vet[0] = END.vet[0] (f + 0) = END.vet[0]
-i = 1 vet[1] = 2.2 *(f + 1) = 2.2 &vet[1] = END.vet[1] (f + 1) = END.vet[1]
-i = 2 vet[2] = 3.3 *(f + 2) = 3.3 &vet[2] = END.vet[2] (f + 2) = END.vet[2]
-i = 3 vet[3] = 4.4 *(f + 3) = 4.4 &vet[3] = END.vet[3] (f + 3) = END.vet[3]
-i = 4 vet[4] = 5.5 *(f + 4) = 5.5 &vet[4] = END.vet[4] (f + 4) = END.vet[4]*/
+i = 0 vet[0] = 1.1 *(f + 0) = 1.1 &vet[0] = ENDERECO_vet[0] (f + 0) = ENDERECO_vet[0]
+i = 1 vet[1] = 2.2 *(f + 1) = 2.2 &vet[1] = ENDERECO_vet[1] (f + 1) = ENDERECO_vet[1]
+i = 2 vet[2] = 3.3 *(f + 2) = 3.3 &vet[2] = ENDERECO_vet[2] (f + 2) = ENDERECO_vet[2]
+i = 3 vet[3] = 4.4 *(f + 3) = 4.4 &vet[3] = ENDERECO_vet[3] (f + 3) = ENDERECO_vet[3]
+i = 4 vet[4] = 5.5 *(f + 4) = 5.5 &vet[4] = ENDERECO_vet[4] (f + 4) = ENDERECO_vet[4]*/
