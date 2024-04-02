@@ -26,12 +26,10 @@ int main(){
     int tam;
     int *vetor_ord;
     scanf("%d", &tam);
-    printf("\n");
 
     vetor_ord = (int *)malloc(tam * sizeof(int));
     for(int i=0; i<tam; i++){
         scanf("%d", &vetor_ord[i]);
-        printf("\n");
     }
 
     ordenar(vetor_ord, 0, tam);
