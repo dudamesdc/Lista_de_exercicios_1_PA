@@ -1,9 +1,9 @@
-**Seja o seguinte trecho de programa:**
+//Seja o seguinte trecho de programa:**
 int i=3,j=5;
 int *p, *q;
 p = &i;
 q = &j;
-Determine o valor das seguintes expressões, justificando o porquê de cada resultado:
+//Determine o valor das seguintes expressões, justificando o porquê de cada resultado:
 ◦ p == &i; 
 /*1, pois eh verdade que p eh igual o endereco de memoria de i*/
 ◦ *p - *q; 
