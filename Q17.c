@@ -15,7 +15,6 @@ void ordenar(int *pont, int left, int right){
     int b = pont[left];
     pont[left] = pont[left+j];
     pont[left+j] = b;
-//232576
     if((left+j)-(left)>=2){
         ordenar(pont, left, left+j);
     }
