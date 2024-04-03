@@ -8,4 +8,4 @@ p = mat;
 p = mat;
 //valida, atribui o endereço do primeiro elemento do array à p.
 x = (*mat); 
-//acessa o valor do primeiro elemento do array e atribui à i.
+//valida,acessa o valor do primeiro elemento do array e atribui à i.
