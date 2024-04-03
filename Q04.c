@@ -25,8 +25,75 @@ int main() {
   p3 = &nome[0];
   aux = *p3;
   printf("%c \n", aux);//P
+  /* (d) */
+    p3 = &nome[4];
+    aux = *p3;
+    printf("%c \n", aux);//e
+
+    /* (e) */
+    p3 = nome;
+    printf("%c \n", *p3);//P
+
+    /* (f) */
+    p3 = p3 + 4;
+    printf("%c \n", *p3);//e
+
+    /* (g) */
+    p3--;
+    printf("%c \n", *p3);//t
+
+    /* (h) */
+    vetor[0] = 31;
+    vetor[1] = 45;
+    vetor[2] = 27;
+    p4 = vetor;
+    idade = *p4;
+    printf("%d \n", idade);//31
+
+    /* (i) */
+    p5 = p4 + 1;
+    idade = *p5;
+    printf("%d \n", idade);//45
+
+    /* (j) */
+    p4 = p5 + 1;
+    idade = *p4;
+    printf("%d \n", idade);//27
+
+    /* (l) */
+    p4 = p4 - 2;
+    idade = *p4;
+    printf("%d \n", idade);//31
+
+    /* (m) */
+    p5 = &vetor[2] - 1;
+    printf("%d \n", *p5);//45
+
+    /* (n) */
+    p5++;
+    printf("%d \n", *p5);27
+
+    return 0;
+  
+}
   }
 //a) e b) tiveram seus valores desreferenciados e foi declarado um novo valor ao antigo armazenado.
 // Na c) teve seu primeiro caractere impresso que nessa caso é P.
+/*
+saida:
+20 
+29.0 
+P 
+e 
+P 
+e 
+t 
+31 
+45 
+27 
+31 
+45 
+27 
 
+*/
   
