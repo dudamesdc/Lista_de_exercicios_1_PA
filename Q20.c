@@ -16,8 +16,8 @@ void multiplica_matrizes(int **a,int **b,int **c,int linha,int ca,int cb){
 void imprime_matriz(int **matriz,int linha,int coluna){
     for(int i=0;i<linha;i++){
         for(int j=0;j<coluna;j++){
-            printf("%d",matriz[i][j]);
-            printf("\n");
+            printf("%d ",matriz[i][j]);
+            
         }
         printf("\n");
     }
