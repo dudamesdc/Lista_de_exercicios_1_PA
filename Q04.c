@@ -71,7 +71,7 @@ int main() {
 
     /* (n) */
     p5++;
-    printf("%d \n", *p5);27
+    printf("%d \n", *p5);//27
 
     return 0;
   
