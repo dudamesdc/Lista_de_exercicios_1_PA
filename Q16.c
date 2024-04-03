@@ -3,7 +3,7 @@
 
 // Função de comparação para qsort
 int compare(const void *a, const void *b) {
-    float c= (const float *)a-(const float *)b;
+    float c= *(float *)a-*(float *)b;
     if (c > 0) return 1;
     if (c < 0) return -1;
     return 0;
