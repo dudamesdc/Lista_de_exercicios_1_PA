@@ -9,3 +9,11 @@ int main() {
 }
 // a saída: 4 9 13
 //em C quando usa uma expressao com um array, ele se torna o endereço, exemplo: vet[] + i vira o endereco de vet[i]
+int main(){
+  int vet[] = {4, 9, 13};
+  int i;
+  for(i=0;i<3;i++){
+  printf("%X ",vet+i);
+  }
+}
+//saida:1000 1004 1008
