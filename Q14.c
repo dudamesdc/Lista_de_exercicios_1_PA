@@ -8,9 +8,9 @@ int vezes(int a, int b) {
 int main() {
     int (*p)(int, int); // Declaração de um ponteiro para uma função que recebe dois inteiros e retorna um inteiro
 
-    p = soma; // Atribui o endereço da função soma ao ponteiro p
+    p = vezes; // Atribui o endereço da função vezes ao ponteiro p
 
-    int resultado = (*p)(3, 4); // Chama a função soma indiretamente através do ponteiro p
+    int resultado = (*p)(3, 4); // Chama a função vezes indiretamente através do ponteiro p
 
     printf("Resultado: %d\n", resultado); // Imprime o resultado da multiplicacao
 
